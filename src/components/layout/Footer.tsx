@@ -45,8 +45,14 @@ export function Footer() {
       <Container className="py-16">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="space-y-5 lg:col-span-4">
-            <Link to="/" className="inline-flex items-center gap-2.5">
-              <img src="/favicon.svg" alt="" className="h-9 w-9 rounded-md" width={36} height={36} />
+            <Link to="/" className="inline-flex items-center gap-3">
+              <img
+                src={company.logoSrc}
+                alt={t.brand.legalName}
+                className="h-12 w-auto max-w-[10rem] rounded-sm bg-white/95 object-contain p-1"
+                width={160}
+                height={48}
+              />
               <span className="text-lg font-bold">{t.brand.name}</span>
             </Link>
             <p className="max-w-sm text-sm leading-relaxed text-white/70">{t.brand.description}</p>

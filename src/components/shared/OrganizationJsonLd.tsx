@@ -25,7 +25,7 @@ export function OrganizationJsonLd() {
       areaServed: "SA",
     };
 
-    const scriptId = "aldour-organization-jsonld";
+    const scriptId = "bonyan-organization-jsonld";
     let script = document.getElementById(scriptId) as HTMLScriptElement | null;
     if (!script) {
       script = document.createElement("script");

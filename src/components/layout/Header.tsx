@@ -39,14 +39,20 @@ export function Header() {
       )}
     >
       <Container className="flex h-16 items-center justify-between gap-4 sm:h-20">
-        <Link to="/" className="group flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <img src="/favicon.svg" alt="" className="h-9 w-9 rounded-md" width={36} height={36} />
+        <Link to="/" className="group flex items-center gap-3" onClick={() => setOpen(false)}>
+          <img
+            src={company.logoSrc}
+            alt={t.brand.legalName}
+            className="h-10 w-auto max-w-[9.5rem] object-contain sm:h-12 sm:max-w-[11rem]"
+            width={176}
+            height={48}
+          />
           <span className="flex flex-col leading-tight">
-            <span className="text-base font-bold tracking-tight text-foreground sm:text-lg">
+            <span className="text-base font-bold tracking-tight text-navy-900 sm:text-lg dark:text-white">
               {t.brand.name}
             </span>
             <span className="hidden text-[11px] font-medium text-gold-600 sm:block">
-              {locale === "en" ? t.brand.nameArabic : t.brand.legalName}
+              {locale === "en" ? t.brand.nameArabic : "Advanced Contracting"}
             </span>
           </span>
         </Link>

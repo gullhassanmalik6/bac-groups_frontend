@@ -11,7 +11,7 @@ import { ar } from "./ar";
 import { en } from "./en";
 import type { Locale, Messages } from "./types";
 
-const STORAGE_KEY = "aldour-locale";
+const STORAGE_KEY = "bonyan-locale";
 
 const catalogs: Record<Locale, Messages> = { en, ar };
 
