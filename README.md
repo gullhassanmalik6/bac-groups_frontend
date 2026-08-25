@@ -29,11 +29,9 @@ Copy `.env.example` to `.env`. Defaults:
 
 ## Railway
 
-## Workspace layout
+Railway connects to this **GitHub repository root** (not a parent monorepo folder). Production domain: **www.bacgroupsa.com**.
 
-Open the **`Crypto/`** directory at the repo root (local monorepo may also expose it as a sibling of `Backend/` and `Website/`).
-
-See project `docs/DEPLOYMENT.md`. Railway web root directory: **`Website`**. Production domain: **www.bacgroupsa.com**.
+Local workspace path: `Client Project/Website/CryptoPOS/Frontend/`. See workspace `docs/DEPLOYMENT.md`.
 
 ## Content rules
 
