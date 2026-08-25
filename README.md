@@ -29,7 +29,11 @@ Copy `.env.example` to `.env`. Defaults:
 
 ## Railway
 
-See `/docs/DEPLOYMENT.md`. Root directory: `Website`. Production domain: **www.bacgroupsa.com**.
+## Workspace layout
+
+Open the **`Crypto/`** directory at the repo root (local monorepo may also expose it as a sibling of `Backend/` and `Website/`).
+
+See project `docs/DEPLOYMENT.md`. Railway web root directory: **`Website`**. Production domain: **www.bacgroupsa.com**.
 
 ## Content rules
 

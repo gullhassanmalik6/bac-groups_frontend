@@ -176,7 +176,19 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} {t.brand.legalName}. {t.common.allRights}
           </p>
-          <p>{t.common.locationLine}</p>
+          <div className="flex flex-col gap-1 sm:items-end">
+            {company.crNumber ? (
+              <p>
+                {t.common.crLabel}: {company.crNumber}
+              </p>
+            ) : null}
+            {company.vatNumber ? (
+              <p>
+                {t.common.vatLabel}: {company.vatNumber}
+              </p>
+            ) : null}
+            <p>{t.common.locationLine}</p>
+          </div>
         </div>
       </Container>
     </footer>

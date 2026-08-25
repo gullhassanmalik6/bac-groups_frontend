@@ -54,6 +54,8 @@ export const en: Messages = {
     faq: "FAQ",
     contact: "Contact",
     allRights: "All rights reserved.",
+    crLabel: "CR",
+    vatLabel: "VAT",
     locationLine: "Madinah · Kingdom of Saudi Arabia",
     subscribe: "Subscribe",
     subscribing: "Subscribing…",
@@ -113,7 +115,7 @@ export const en: Messages = {
     coreValuesTitle: "Why choose us",
     coreValuesDescription: "The principles that guide our delivery.",
     affiliationsNote:
-      "Commercial National Number 7026169222. VAT number appears on official documents once provided by the company.",
+      "Commercial National Number 7026169222. VAT number 3110625023.",
   },
   missionVision: {
     seoTitle: "Mission & Vision",
@@ -537,8 +539,7 @@ export const en: Messages = {
     {
       id: "vat",
       question: "Where is the VAT number?",
-      answer:
-        "VAT number will appear on receipts and official documents once provided by the company. It is not invented on this website.",
+      answer: "VAT number 3110625023 is shown on official documents and POS receipts.",
       category: "Company",
     },
   ],

@@ -19,7 +19,7 @@ export const company = {
     instagram: "",
   },
   siteUrl: (import.meta.env.VITE_SITE_URL as string) || "https://www.bacgroupsa.com",
-  vatNumber: (import.meta.env.VITE_VAT_NUMBER as string) || "",
+  vatNumber: (import.meta.env.VITE_VAT_NUMBER as string) || "3110625023",
   crNumber: (import.meta.env.VITE_CR_NUMBER as string) || "7026169222",
   established: "2021-10-18",
   logoSrc: "/logo.jpeg",

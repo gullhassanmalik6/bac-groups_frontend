@@ -77,6 +77,8 @@ export interface Messages {
     faq: string;
     contact: string;
     allRights: string;
+    crLabel: string;
+    vatLabel: string;
     locationLine: string;
     subscribe: string;
     subscribing: string;
