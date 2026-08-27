@@ -1,7 +1,8 @@
 export const company = {
   name: "Bonyan",
   legalName: "Bonyan Advanced Contracting Establishment",
-  email: (import.meta.env.VITE_CONTACT_EMAIL as string) || "info@bacgroupsa.com",
+  /** Confirmed by client (Fiverr) — do not use personal Gmail on the public site. */
+  email: "info@bacgroupsa.com",
   phone: (import.meta.env.VITE_CONTACT_PHONE as string) || "+966599000789",
   phoneDisplay: "+966 59 900 0789",
   address: {
