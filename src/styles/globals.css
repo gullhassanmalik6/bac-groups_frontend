@@ -116,13 +116,13 @@
   .gradient-hero {
     background:
       linear-gradient(135deg, rgb(11 31 58 / 0.92) 0%, rgb(11 31 58 / 0.72) 48%, rgb(11 31 58 / 0.45) 100%),
-      url("/images/page_cover.jpg") center / cover no-repeat;
+      url("/images/page_works1.jpg") center / cover no-repeat;
   }
 
   .dark .gradient-hero {
     background:
       linear-gradient(135deg, rgb(7 20 34 / 0.94) 0%, rgb(11 31 58 / 0.8) 55%, rgb(11 31 58 / 0.55) 100%),
-      url("/images/page_cover.jpg") center / cover no-repeat;
+      url("/images/page_works1.jpg") center / cover no-repeat;
   }
 
   .diagonal-gold {

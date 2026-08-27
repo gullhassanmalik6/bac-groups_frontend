@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { Languages, Menu, Moon, Phone, Sun, X } from "lucide-react";
+import { Languages, Menu, Moon, Sun, X } from "lucide-react";
 import { company } from "@/config/site";
 import { useTheme } from "@/context/ThemeContext";
 import { useI18n } from "@/i18n";
@@ -96,13 +96,6 @@ export function Header() {
             {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </Button>
 
-          <Button asChild variant="outline" size="sm" className="hidden lg:inline-flex">
-            <a href={`tel:${company.phone}`}>
-              <Phone className="h-4 w-4" />
-              {t.common.callNow}
-            </a>
-          </Button>
-
           <Button asChild size="sm" className="hidden md:inline-flex">
             <Link to="/contact">{t.common.contactUs}</Link>
           </Button>
@@ -158,9 +151,7 @@ export function Header() {
                   </Link>
                 </Button>
                 <Button asChild variant="outline">
-                  <a href={`tel:${company.phone}`}>
-                    {t.common.callNow} {company.phoneDisplay}
-                  </a>
+                  <a href={`mailto:${company.email}`}>{company.email}</a>
                 </Button>
               </div>
             </nav>

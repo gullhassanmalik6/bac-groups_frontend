@@ -39,7 +39,7 @@ export function ServicesPage() {
               <FadeIn key={service.id} delay={index * 0.03}>
                 <article className="flex h-full flex-col border border-border bg-card">
                   <img
-                    src={serviceImages[service.id] ?? "/images/page_services.jpg"}
+                    src={serviceImages[service.id] ?? "/images/page_works1.jpg"}
                     alt=""
                     className="aspect-[16/10] w-full object-cover"
                     loading="lazy"

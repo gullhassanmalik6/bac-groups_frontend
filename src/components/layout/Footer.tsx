@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { company } from "@/config/site";
 import { useI18n } from "@/i18n";
 import { websiteService } from "@/services/website.service";
@@ -67,10 +67,6 @@ export function Footer() {
               >
                 <Mail className="h-4 w-4 text-gold-400" />
                 {company.email}
-              </a>
-              <a href={`tel:${company.phone}`} className="flex items-center gap-2 hover:text-white">
-                <Phone className="h-4 w-4 text-gold-400" />
-                {company.phoneDisplay}
               </a>
             </div>
           </div>

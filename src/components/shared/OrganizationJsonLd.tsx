@@ -14,7 +14,6 @@ export function OrganizationJsonLd() {
       alternateName: t.brand.nameArabic,
       url: company.siteUrl,
       email: company.email,
-      telephone: company.phone,
       address: {
         "@type": "PostalAddress",
         addressLocality: company.address.city,

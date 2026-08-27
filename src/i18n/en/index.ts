@@ -259,7 +259,7 @@ export const en: Messages = {
   contactPage: {
     seoTitle: "Contact",
     seoDescription:
-      "Contact Bonyan Advanced Contracting Establishment in Madinah — info@bacgroupsa.com or +966599000789.",
+      "Contact Bonyan Advanced Contracting Establishment in Madinah — info@bacgroupsa.com.",
     eyebrow: "Contact",
     title: "Get in touch",
     description:
@@ -355,7 +355,7 @@ export const en: Messages = {
       {
         title: "Contact",
         description:
-          "For questions about these terms, contact info@bacgroupsa.com or +966599000789.",
+          "For questions about these terms, contact info@bacgroupsa.com.",
       },
     ],
   },
@@ -514,7 +514,7 @@ export const en: Messages = {
     {
       id: "contact",
       question: "How can I contact the company?",
-      answer: "Email info@bacgroupsa.com or call +966599000789.",
+      answer: "Email info@bacgroupsa.com.",
       category: "Company",
     },
     {

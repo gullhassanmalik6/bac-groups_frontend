@@ -2,7 +2,7 @@
   <rect width="1200" height="630" fill="#0B1F3A"/>
   <path d="M0 0h420l180 630H0V0Z" fill="#152536"/>
   <path d="M780 0h420v630H600L780 0Z" fill="#C4922E" fill-opacity="0.2"/>
-  <text x="80" y="280" fill="#F7F8FA" font-family="Georgia, serif" font-size="72" font-weight="700">Al Dour Al Aliah</text>
-  <text x="80" y="360" fill="#C4922E" font-family="Arial, sans-serif" font-size="36">Contracting · Madinah</text>
-  <text x="80" y="430" fill="#A8B7C8" font-family="Arial, sans-serif" font-size="28">مؤسسة الدور العالية للمقاولات</text>
+  <text x="80" y="280" fill="#F7F8FA" font-family="Georgia, serif" font-size="72" font-weight="700">Bonyan</text>
+  <text x="80" y="360" fill="#C4922E" font-family="Arial, sans-serif" font-size="32">Advanced Contracting · Madinah</text>
+  <text x="80" y="430" fill="#A8B7C8" font-family="Arial, sans-serif" font-size="28">بنيان للمقاولات المتقدمة</text>
 </svg>

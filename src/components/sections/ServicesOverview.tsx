@@ -26,7 +26,7 @@ export function ServicesOverview() {
               <article className="group flex h-full flex-col overflow-hidden border border-border bg-card">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img
-                    src={serviceImages[service.id] ?? "/images/page_services.jpg"}
+                    src={serviceImages[service.id] ?? "/images/page_works1.jpg"}
                     alt=""
                     className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                     loading="lazy"

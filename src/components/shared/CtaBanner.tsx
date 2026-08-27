@@ -39,7 +39,7 @@ export function CtaBanner({ title, description }: CtaBannerProps) {
                   variant="outline"
                   className="border-white/20 bg-white/5 text-white hover:bg-white/10"
                 >
-                  <a href={`tel:${company.phone}`}>{t.common.callNow}</a>
+                  <a href={`mailto:${company.email}`}>{company.email}</a>
                 </Button>
               </div>
             </div>

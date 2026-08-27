@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { company } from "@/config/site";
 import { useI18n } from "@/i18n";
 import { websiteService } from "@/services/website.service";
@@ -89,18 +89,6 @@ export function ContactPage() {
                     className="mt-1 block text-sm text-muted-foreground hover:text-foreground"
                   >
                     {company.email}
-                  </a>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <Phone className="mt-0.5 h-5 w-5 text-gold-600" />
-                <div>
-                  <h2 className="font-semibold">{t.contactPage.phone}</h2>
-                  <a
-                    href={`tel:${company.phone}`}
-                    className="mt-1 block text-sm text-muted-foreground hover:text-foreground"
-                  >
-                    {company.phoneDisplay}
                   </a>
                 </div>
               </div>

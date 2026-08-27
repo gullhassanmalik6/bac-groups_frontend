@@ -258,7 +258,7 @@ export const ar: Messages = {
   contactPage: {
     seoTitle: "تواصل معنا",
     seoDescription:
-      "تواصل مع مؤسسة بنيان المتقدمة للمقاولات في المدينة المنورة — info@bacgroupsa.com أو +966599000789.",
+      "تواصل مع مؤسسة بنيان المتقدمة للمقاولات في المدينة المنورة — info@bacgroupsa.com.",
     eyebrow: "تواصل معنا",
     title: "يسعدنا تواصلكم",
     description:
@@ -354,7 +354,7 @@ export const ar: Messages = {
       {
         title: "التواصل",
         description:
-          "للاستفسار عن هذه الشروط راسل info@bacgroupsa.com أو اتصل على +966599000789.",
+          "للاستفسار عن هذه الشروط راسل info@bacgroupsa.com.",
       },
     ],
   },
@@ -509,7 +509,7 @@ export const ar: Messages = {
     {
       id: "contact",
       question: "كيف يمكن التواصل مع الشركة؟",
-      answer: "البريد info@bacgroupsa.com أو الهاتف +966599000789.",
+      answer: "البريد info@bacgroupsa.com.",
       category: "الشركة",
     },
     {
